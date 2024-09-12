@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="MatiasHerrera">
+	<meta name="description" content="taller de ceramica">
+	<meta name="keywords" content="ceramica, kapra">
+	<style>
+		@font-face {
+			font-family: 'Rockwell Nova Light';
+			src: url('letra/RockwellNova-Light.woff2') format('woff2');
+		}
+	</style>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" media="(min-width:800px)" href="estilos.css">
+	<link rel="stylesheet" media="(max-width:800px)" href="movil.css">
+	<script src="validar.js"></script>
+	<title>Kapra Ceramica</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="iconos/iconokapra/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="iconos/iconokapra/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="iconos/iconokapra/favicon-16x16.png">
+	<link rel="manifest" href="iconos/iconokapra/site.webmanifest">
+	<script src="https://kit.fontawesome.com/af3a45c356.js" crossorigin="anonymous"></script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-PB0FTL1GTR"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-PB0FTL1GTR');
+	</script>
+</head>
+
+<body>
+	<header>
+		<section class="gridhead">
+			<article><a href="index.html"><img src="logo/fondo2remove.png"></a></article>
+			<div class="menu">
+				<input class="check" type="checkbox" id="btn-menu">
+				<label for="btn-menu"><img class="boton-menu" src="iconos/menu.png"></label>
+				<nav class="menu-nav">
+					<article><a href="index.html"><b>Inicio</b></a></article>
+					<article><a href="conocenos.html"><b>K'apra</b></a></article>
+					<article><a href="productos.html"><b>Productos</b></a></article>
+					<article><a class="btn" href="contacto.html"><b>Contacto</b></a></article>
+				</nav>
+			</div>
+		</section>
+	</header>
+	<main>
+		<section class="color">
+			<h2 align="center">Agenda</h2>
+			<img src="logo/logo2023.png">
+			<div class="agenda">
+				<div>
+					<h1>LUNES</h1>
+				</div>
+				<div>
+					<h1>MARTES</h1>
+				</div>
+				<div>
+					<h1>MIERCOLES</h1>
+				</div>
+				<div>
+					<h1>JUEVES</h1>
+				</div>
+				<div>
+					<h1>VIERNES</h1>
+				</div>
+				<div><b>Profe Normi</b><br>10hs-12hs</div>
+				<div><b>Profe Normi</b><br> 10hs-12hs</div>
+				<div><b>Profe Normi</b><br> 10hs-12hs</div>
+				<div><b>Profe Normi</b><br> 10hs-12hs</div>
+				<div><b>Profe Normi</b><br> 10hs-12hs</div>
+				<div><b>Profe Juli</b><br> 15hs-17hs</div>
+				<div><b>Profe Juli</b><br> 15hs-17hs</div>
+				<div><b>Profe Juli</b><br> 15hs-17hs</div>
+				<div><b>Profe Juli</b><br> 15hs-17hs</div>
+				<div><b>Profe Juli</b><br> 15hs-17hs</div>
+				<div><b>Profe Coky</b><br> 18hs-20hs</div>
+				<div><b>Profe Coky</b><br> 18hs-20hs</div>
+				<div><b>Profe Coky</b><br> 18hs-20hs</div>
+				<div><b>Profe Coky</b><br> 18hs-20hs</div>
+				<div><b>Profe Coky</b><br> 18hs-20hs</div>
+			</div>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdsC-uBnNbudq7OSy3YJXEq4eZuoZKxntfe0iH0tHU6ciIa8A/viewform" target="_blank">
+			<input class="btninscripcion" type="button" value="Inscripción a Clases"></a>
+		</section>
+		<section>
+			<div class="contacto">
+				<form action="recogeDatos.php" method="post" enctype="application/x-www-form-urlencoded"
+					onsubmit="return validar()">
+					<h2>Contacto</h2>
+					<article><label><b>Nombre</b></label></article>
+					<article><input type="text" name="nombre" id="nombre"></article>
+					<article><label><b>Apellido</b></label></article>
+					<article><input type="text" name="apellido" id="apellido"></article>
+					<article><label><b>Telefóno</b></label></article>
+					<article><input type="telefono" name="movil" id="movil"></article>
+					<article><label><b>Email</b></label></article>
+					<article><input type="email" name="email" id="email" placeholder="ejemplo@ejemplo.com"></article>
+					<article><label><b>Mensaje</b></label></article>
+					<article><textarea name="mensaje" id="mensaje" row=200></textarea></article>
+					<input class="boton" type="submit" name="enviar" value="Enviar">
+				</form>
+			</div>
+		</section>
+		<SECTION>
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.3971571268085!2d-65.27352592481225!3d-26.82731748964068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225cc432db9547%3A0xbf6f1f7acd100cb7!2sClotilde%20Donate%20831%2C%20T4107FQO%20Yerba%20Buena%2C%20Tucum%C3%A1n%2C%20Argentina!5e0!3m2!1ses!2ses!4v1691938561980!5m2!1ses!2ses"
+				width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+				referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</SECTION>
+	</main>
+</body>
+<footer>
+		<section class="pie">
+			<div>
+				<i class="fa-regular fa-square-check"></i><br><br>
+				<p><b>¿COMO ENCONTRARNOS?</b></p><br>
+				<p>Movil:381476-1258/386557-1033</p>
+				<p>kapra@kapraceramica.com</p>
+				<p>Pje Clotilde Doñate 831- YB- Tucumán</p>
+			</div>
+			<div>
+				<i class="fa-regular fa-square-check"></i><br><br>
+				<p><b>¿COMO APUNTARTE A LOS CURSOS Y TALLERES?</b></p><br>
+				<p>A través del teléfono o rellenando el formulario de contacto</p><br>
+				<a href="contacto.html"><b>¡APÚNTATE!</b></a>
+			</div>
+			<div>
+				<i class="fa-regular fa-square-check"></i><br><br>
+				<P><B>¿SEGUINOS EN LAS REDES SOCIALES!</B></P><br>
+				<P>Descubrirás reels, videos, información y todo lo que necesites para comenzar este nuevo estilo de
+					vida</P>
+				<a href="https://www.instagram.com/kapra.ceramica/" target="_blank"><img src="iconos/instagram-removebg-preview.png"
+						width="60px"></a>
+			</div>
+			<div class="copy"><b>Copyright © 2023 Kapra Cerámica</b></div>
+			<div class="my">
+				<b align="rigth">Designed: <a href="https://www.instagram.com/tucuwebdesigns?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">tucuwebdesigns</a></b>
+			</div>
+		</section>
+	</footer>
+
+</html>
